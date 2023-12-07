@@ -24,4 +24,9 @@ export class Jumble {
     <span>${this.startTime}</span>
   </div>`
   }
+
+  get ActiveJumbleTemplate() {
+    return ``
+  }
+
 }

@@ -8,6 +8,11 @@ function _drawJumbles() {
   document.getElementById('jumbles-list').innerHTML = content
 }
 
+function _drawActiveJumble() {
+  const activeJumble = AppState.activeJumble
+  let content = activeJumble.ActiveJumbleTemplate
+  document.getElementById("active-jumble").innerHTML = content
+}
 
 export class JumblesController {
   constructor() {
@@ -16,4 +21,6 @@ export class JumblesController {
 
 
   }
+
+
 }
