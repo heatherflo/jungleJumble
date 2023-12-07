@@ -7,4 +7,4 @@ class JumblesService {
 
 }
 
-export const JumblesService = new JumblesService()
+export const jumblesService = new JumblesService()
